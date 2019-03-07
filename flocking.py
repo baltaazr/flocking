@@ -217,7 +217,7 @@ if interval < 361:
 pygame.init()
 mixer.init()
 mixer.music.load(
-    'C:/Users/21114610/Documents/Projects/honorsai/flocking/tangerineDream.mp3')
+    './tangerineDream.mp3')
 mixer.music.play()
 
 size = width, height = 500, 500
